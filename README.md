@@ -1,5 +1,11 @@
 # Detection-Transformer:
 A DETR (DEtection Transfomer) model for object detection using PyTorch. DETR is a transformer-based model that directly predicts object bounding boxes and class labels in a single forward pass.  
+# Usage:
+1.Install required dependencies using dependencies.py  
+2.Import necessary libraries using.  
+3.Build detection transformer and Resnet50 backbone using DETR-class.py.  
+4.Load coco dataset using dataset.py.  
+5.Run result.py by uploading desired image as input.
 # Architecture:
 The architecture of this project is centered around the DETR (DEtection Transfomer) model, which combines a convolutional backbone (ResNet-50) with a transformer-based object detection framework. The ResNet-50 backbone extracts hierarchical features from input images, while the transformer processes these features to capture contextual relationships and dependencies. The model predicts class probabilities and bounding box coordinates directly in a single forward pass, eliminating the need for anchor boxes and non-maximum suppression. This end-to-end architecture enables efficient and accurate object detection, and the model is pretrained on the COCO dataset, consisting of 91 classes, including a background class.
 # Dependencies:  
