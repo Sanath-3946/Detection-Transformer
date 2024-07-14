@@ -1,5 +1,6 @@
 # Detection-Transformer:
 A DETR (DEtection Transfomer) model for object detection using PyTorch. DETR is a transformer-based model that directly predicts object bounding boxes and class labels in a single forward pass.  
+Collaborated Project with https://github.com/bhavithareddy-05
 # Usage:
 1.Install required dependencies using dependencies.py  
 2.Import necessary libraries using import-lib.py.  
